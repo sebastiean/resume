@@ -1,0 +1,84 @@
+body {
+  font-family: "Mukta Malar", sans-serif;
+  background-color: #f7f7f7;
+  padding: 0;
+  font-size: 15px; }
+
+#content {
+  width: 966px;
+  padding: 0px 50px 10px 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden; }
+
+.flex-grid {
+  display: flex;
+  justify-content: space-between; }
+
+.col-8 {
+  width: 60%;
+  padding-right: 7.5px; }
+
+.col-4 {
+  width: 40%;
+  padding-left: 7.5px; }
+
+#main {
+  width: 70%;
+  display: inline; }
+
+.square {
+  background-color: #c64d21;
+  display: inline-block;
+  color: #fff;
+  text-align: center; }
+
+.sq-top {
+  width: 130px;
+  padding-top: 70px; }
+
+.sq-left {
+  width: 50px; }
+
+h1, h2 {
+  margin: .2em 0; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.17em; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1;
+  margin: .2em 0; }
+
+.name {
+  display: inline-block;
+  padding: 0 10px; }
+
+.heading {
+  margin-left: -50px; }
+  .heading h2 {
+    display: inline-block; }
+
+.date, .location {
+  color: #c64d21; }
+
+.location {
+  float: right; }
+
+.section {
+  padding: 5px 5px; }
+
+p {
+  margin: .6em 0; }
+
+/*# sourceMappingURL=style.css.map */
