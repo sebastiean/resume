@@ -18,7 +18,7 @@ body {
   overflow: hidden; }
 
 .details {
-  padding: 12.5px 0 7.5px 0;
+  padding: 25px 0 7.5px 0;
   margin-top: 27px; }
 
 .info ul {
@@ -57,7 +57,7 @@ body {
   display: inline; }
 
 .container {
-  padding: 10px 0; }
+  padding: 25px 0; }
 
 .square {
   background-color: #c64d21;
@@ -122,21 +122,24 @@ h1, h2, h3, h4, h5, h6 {
   float: right; }
 
 .section {
-  padding: 5px 0; }
+  padding: 15px 0; }
 
 p {
   margin: .6em 0; }
 
+.skills hr {
+  margin-bottom: .8em; }
+
 .skill {
   width: 100%;
   padding: 1.5px 0; }
+  .skill p, .skill .box {
+    margin: 0 0 .5em 0;
+    padding: 0; }
 
 .bar {
   background-color: #c64d21;
   height: 16px; }
-
-.skill p, .skill .box {
-  margin: .2em 0; }
 
 .value-90 {
   width: 90%; }
@@ -162,11 +165,13 @@ p {
 .value-55 {
   width: 55%; }
 
-.language p {
-  margin: .2em 0; }
+.language {
+  padding: 5px 0; }
+  .language p {
+    margin: .2em 0; }
 
 .interests {
-  padding: 10px 0; }
+  margin-top: 10px; }
 
 .interest {
   padding: 0 7px;
