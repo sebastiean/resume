@@ -46,7 +46,11 @@ body {
 
 .col-8 {
   width: 60%;
-  padding-right: 10px;
+}
+
+.col-9 {
+  width: 75%;
+  padding-right: 20px;
 }
 
 .col-4 {
@@ -182,6 +186,11 @@ p {
   padding: 0;
 }
 
+.skill p, .skill .dots {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+
 .bar {
   background-color: #c64d21;
   height: 16px;
@@ -219,9 +228,6 @@ p {
   width: 55%;
 }
 
-.language {
-  padding: 5px 0;
-}
 .language p {
   margin: 0.2em 0;
 }
@@ -269,3 +275,56 @@ p {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+ul.ul-dots {
+  margin: 0;
+  padding: 0;
+}
+
+li.li-dots {
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 1em;
+  //border-radius: 1em;
+  background: #c64d21;
+  margin: 0 .8em;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+
+li.li-dots::before {
+  content: "";
+  position: absolute;
+  top: 0.9em;
+  left: -4em;
+  width: 4em;
+  height: 0.2em;
+  background: #c64d21;
+  z-index: -1;
+}
+
+li.li-dots:first-child::before {
+  display: none;
+}
+
+li.li-dots:first-child {
+  margin-left: 0;
+}
+
+li.li-dots:last-child {
+  margin-right: 0;
+}
+
+.active {
+  background: #c64d21;
+}
+
+.active ~ li.li-dots {
+  background: #ea9d81;
+}
+
+.active ~ li.li-dots::before {
+  background: #ea9d81;
+}
