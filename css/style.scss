@@ -1,8 +1,5 @@
 $font-stack: 'Montserrat', sans-serif;
 $primary: #2f4f7b;
-//$secondary: #ee6b02;
-//$secondary: #d35400;
-//$secondary: #cd8752;
 $secondary: #b34700;
 
 @font-face {
@@ -11,102 +8,6 @@ $secondary: #b34700;
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron/Aileron-UltraLight.otf') format("opentype");
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron/Aileron-Light.otf') format("opentype");
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron/Aileron-Thin.otf') format("opentype");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron/Aileron-Regular.otf') format("opentype");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron/Aileron-SemiBold.otf') format("opentype");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron/Aileron-Bold.otf') format("opentype");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron/Aileron-Heavy.otf') format("opentype");
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron/Aileron-Black.otf') format("opentype");
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: 'Meticula';
-  src: url('../fonts/Meticula/Meticula-ExtraLight.ttf');
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'Meticula';
-  src: url('../fonts/Meticula/Meticula-Light.ttf');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Meticula';
-  src: url('../fonts/Meticula/Meticula-Thin.ttf');
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Meticula';
-  src: url('../fonts/Meticula/Meticula-Regular.ttf');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Meticula';
-  src: url('../fonts/Meticula/Meticula-Medium.ttf');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Meticula';
-  src: url('../fonts/Meticula/Meticula-SemiBold.ttf');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Meticula';
-  src: url('../fonts/Meticula/Meticula-Bold.ttf');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'Meticula';
-  src: url('../fonts/Meticula/Meticula-ExtraBold.ttf');
-  font-weight: 900;
 }
 
 body {
